@@ -1,0 +1,7 @@
+.text{
+    display: flex;
+    color:white;
+    float:right;
+    align-self: center;
+    justify-content: center;
+}

@@ -1,0 +1,6 @@
+.button{
+    display:flex;
+    color: white;
+    background-color: Sienna;
+    border-radius: 6px;
+}

@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    padding-bottom: 3px;
+    width: 40%;
+    border-color: Sienna;
+    border-width: medium;
+    max-height: 600px;
+    font-size: 100%;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display:flex;
+    width: auto;
+    max-height: 500px;
+}

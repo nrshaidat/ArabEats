@@ -1,0 +1,25 @@
+Input Development Project README:
+Summary: This site was created for the purpose of learning how to handle user input regarding filtering and sorting through some data. I made a site that allows the user to filter and sort with the purpose of searching through Arabian meals in mind. You can filter through your meat and grain preferences. You can sort by popularity, which is based on their popularity in the Middle East. 
+
+My 2 Components:
+	-Counter component that allows the user to like or dislike the page and is located at the bottom of the page. 
+	-Welcomepopup component that pops up at the first interaction with the site to explain to the user the site's purpose. It can change it's state by closing it with the 'close' button. It uses the popup component I made which contains the popup's text. 
+
+Design Principles Used:
+	- I made the buttons a different color to their background to invoke that they are action buttons. 
+	-I used white space to offer a clean and easy to follow design
+	-I also put my like/dislike button at the bottom of the page because I wanted the user to play with the site before they scan over to the like/dislike button. 
+	-I also made my filter and sort buttons change their status when the user selects an option to give the user instant feedback that the button worked and for the user to have ease identifying what they are sorting and filtering. 
+	-I set all the filter and sort buttons default option to all to allow the user to see all the options.
+
+Data's Path Through My Site:
+	I have an array of my data in my app.js file and this array is passed to my filter component. Then in my filter component it calls on my list component. In my list component I call on my Dish component which organizes each item into a card with a picture and title. So when my Dish component returns to my list component, my list component displays out my items to the user. 
+
+Ways to Change States:
+	-The user can select a filter option for my Meat category which updates my filter component's states
+		-The user can then also select a sort option and that will update the filter components state
+	-The user presses the close button on my popup window which closes the Welcome popup which changes my Welcomepopup window state to false (aka off)
+	-The user can scroll to the bottom of the page and press the like or dislike button which in turn changes my counter components state to show to the user the amount of likes the page has
+	-The user could press the help button which changes my Welcomepopup window state to true (aka on)
+	
+Overall Goal and Value to the User: This site was made as an informational page on the different cuisines in the MiddleEast. It's goal is to help the user identify which meal would best suit their dietary preferences. This site would be very beneficial to foreigners who wish to study abroad or vacation/visit a country in the Middle East and would like more information on the cuisines they will encounter on their trip. 
